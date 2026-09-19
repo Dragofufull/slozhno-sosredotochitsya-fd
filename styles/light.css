@@ -1,12 +1,29 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+
+:root.theme-light .rec-tag{
+  display: none;
+}
+
+:root.theme-light .header{
+  background-color: transparent;
+}
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+--bg-image: #FFF0F5;
+  --accent-color: #353430;
+  --headerborder-color: #353430;
+  --pink-color: #FFC2E6;
+  --text-shadow-color: #FF8DCB;
+  --description--bg-color: #FF8DCB;
+  --color-text: #353430;
+  --color-text-section: #353430;
+   --backround: #FFF0F5;
+   --description-color: #353430;
+    --text-link: #F1B2CE; 
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+   --font-size-main: 18px;
+   --font-size-large: 116px;
+   --line-height-main: 23.4px;
+    --line-height-title: 83%;
 }
