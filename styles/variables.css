@@ -9,8 +9,8 @@
   --color-text-section: #F1B2CE;
   --backround: #000028;
   --description-color: #000028;
-  --text-link: #FF0070; 
-  
+  --text-link: #FF0070;
+
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --font-size-main: 18px;
@@ -229,19 +229,19 @@
 
   .conteiner-title:nth-child(2) {
     display: grid;
-    grid-template-columns: repeat(3, 315px); 
+    grid-template-columns: repeat(3, 315px);
     gap: 20px;
   }
 
   .conteiner-title:nth-child(2) .main-title {
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1;
     width: 315px;
   }
 
   .conteiner-title:nth-child(2) .section {
     grid-column: auto;
-    width: 315px; 
-    height: auto; 
+    width: 315px;
+    height: auto;
   }
 
   .conteiner-title:nth-child(3) {
@@ -275,7 +275,7 @@
     width: 100%;
     height: auto;
     font-size: 18px;
-    line-height: 23.4px; 
+    line-height: 23.4px;
   }
 
   .gallery {
