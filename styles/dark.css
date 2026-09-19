@@ -1,24 +1,25 @@
-:root.theme-dark .rec-tag {
-  display: block;
+
+:root.theme-dark .rec-tag{
+ display: block;
 }
 
 :root.theme-dark {
-  --bg-image: url(../images/cover-image-dark.png);
-  --accent-color: #FF0070;
+--bg-image: url(../images/cover-image-dark.png);
+ --accent-color: #FF0070;
   --headerborder-color: #FF0070;
-  --pink-color: #DB00FF;
-  --text-shadow-color: #FF0070;
-  --description--bg-color: #FF0070;
-  --color-text: #000028;
-  --color-text-section: #F1B2CE;
-  --backround: #000028;
-  --description-color: #000028;
-  --text-link: #FF0070;
+   --pink-color: #DB00FF;
+   --text-shadow-color: #FF0070;
+   --description--bg-color: #FF0070;
+   --color-text: #000028;
+   --color-text-section: #F1B2CE;
+  --background: #000028;
+    --description-color: #000028;
+     --text-link: #FF0070; 
 
-  --font-weight-regular: 400;
-  --font-weight-bold: 700;
-  --font-size-main: 18px;
-  --font-size-large: 116px;
-  --line-height-main: 23.4px;
-  --line-height-title: 83%;
+   --font-weight-regular: 400;
+   --font-weight-bold: 700;
+    --font-size-main: 18px;
+    --font-size-large: 116px;
+    --line-height-main: 23.4px;
+     --line-height-title: 83%;
 }
